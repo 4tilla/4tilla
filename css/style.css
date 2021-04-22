@@ -1,0 +1,74 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #616971;
+  }
+
+
+#topheader .navbar-nav li > a {
+	text-transform: capitalize;
+	color: #333;
+	transition: background-color .2s, color .2s;
+	
+	&:hover,
+	&:focus {
+		background-color: #333;
+		color: #fff;
+	}
+}
+
+#topheader .navbar-nav li.active > a {
+	background-color: #333;
+	color: #fff;
+}
+
+/*============= GENERAL =============*/
+
+.page-section {
+    padding: 4em 0;
+  }
+
+
+/*============= NAVIGATION =============*/
+.navbar-brand {
+	text-transform: uppercase;
+}
+
+.navbar {
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+}
+
+.nav-item {
+    padding: .5rem;
+}
+
+.nav-link {
+    letter-spacing: 0.4px;
+    font-weight: bold;
+	text-transform: capitalize;
+  }
+
+
+
+
+
+
+/*============= MEDIA QUERIES =============*/
+  
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+  
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
